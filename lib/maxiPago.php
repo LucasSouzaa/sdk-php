@@ -1,5 +1,7 @@
 <?php
 
+require("maxiPago/Autoload.php");
+
 class maxiPago extends maxiPago_ResponseBase {
 
     private $request;
